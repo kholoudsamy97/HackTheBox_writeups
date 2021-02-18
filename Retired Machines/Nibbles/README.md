@@ -51,8 +51,8 @@ In the nibbleblog/README we will find version of blog to be able to use appropri
 ![](images/readme.png)
 
 Next let's take a look at nibbleblog/admin.php .As expected, we find a login page which we needed it so we will try to brute force
- credentials using hydra, unfortunately I was blacklisted so we will try to guess it randomly as default credentials and it Succeeded
-we will use the the credentials admin:nibbles to login as admin.
+credentials using hydra, unfortunately I was blacklisted so we will try to guess it randomly as default credentials and it Succeeded.
+use the the credentials admin:nibbles to login as admin.
 
 ***
 
@@ -62,7 +62,7 @@ We will continue using metasploit:
 
 ![](images/exploit1.png)
 
-then we will set options and run to get a shell:
+then set options and run to get a shell:
 
 ![](images/exploit2.png)
 
@@ -75,13 +75,12 @@ then we can find user flag:
 
 # Privilege Escalation
 
-We will run sudp -l command to to see if we have passwordless sudo access to anything because we didn't know password of nibbler
-and we will find that:
+run sudo -l command to to see if we have passwordless sudo access to anything because we didn't know password of nibbler:
 
 ![](images/root1.png)
 
-so we will create a new monitor.sh file in the founded path then put in it command bash -i to return shell and exeute it as sudo 
-to get root shell as following:
+so we will create a new monitor.sh file in the founded path then put in it command "bash -i" to return shell and execute it as sudo 
+to get root shell as the following:
 
 ![](images/root2.png)
 ![](images/root3.png)
