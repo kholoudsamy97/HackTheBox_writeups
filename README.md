@@ -4,7 +4,7 @@ I recently started trying machines on [HackTheBox](https://www.hackthebox.eu/) a
 
 ## Active Machines Writeups
 
-* [Delivery](https://github.com/kholoudsamy97/HackTheBox_writeups/tree/main/Active%20Machines/Delivery)
+* [Delivery](https://kholoudsamy97.github.io/HackTheBox_writeups/Active%20Machines/Delivery/)
 
 
 ***
@@ -12,4 +12,4 @@ I recently started trying machines on [HackTheBox](https://www.hackthebox.eu/) a
 
 ## Retired Machines Writeups
 
-* [Nibbles](https://github.com/kholoudsamy97/HackTheBox_writeups/tree/main/Retired%20Machines/Nibbles)
+* [Nibbles](https://kholoudsamy97.github.io/HackTheBox_writeups/Retired%20Machines/Nibbles/)
